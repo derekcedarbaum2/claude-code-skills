@@ -26,7 +26,7 @@ The result is a system where Claude Code operates less like a chatbot and more l
 
 | Skill | What It Does |
 |-------|-------------|
-| **prd-taskmaster** | Smart PRD generator with task execution integration. Detects existing PRDs and offers execute/update/replace workflows. 4 autonomous execution modes (sequential, parallel, full async) with git branching policies, datetime tracking, and rollback support. 928 lines. |
+| **execute-prd** | PRD execution engine with TaskMaster integration. Detects existing PRDs and offers execute/update/replace workflows. 4 autonomous execution modes (sequential, parallel, full async) with git branching policies, datetime tracking, and rollback support. 928 lines. |
 | **qa-loop** | Recursive self-improvement loop. 3 escalating passes: constructive coach, skeptical reviewer, adversarial attacker (with hostile personas). Scores against 10 criteria and iterates until all hit 9/10. Does not stop until the work is actually good. |
 
 ### Content and Communication
